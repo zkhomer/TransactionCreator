@@ -1,0 +1,16 @@
+.nav-bar {
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.active {
+  text-decoration: underline !important;
+}

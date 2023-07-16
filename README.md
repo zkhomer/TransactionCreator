@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Результати тестового завдання можуть бути представлені у зручному для Вас форматі.
+При виконанні тестового завдання не рекомендуємо використовувати chat gpt, готові рішення з google та ін., вони будуть взяті до уваги як невірні.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Завдання 1: Створення міні-додатка для управління бюджетом
+Мета: Ваше завдання - створити міні-додаток для управління бюджетом за допомогою React. Користувачі повинні мати можливість вводити свої доходи та витрати, а програма повинна автоматично розраховувати залишок бюджету.
+Вимоги:
+Вхідні дані: Користувачі повинні мати можливість вводити такі дані:
+•	Назва транзакції (наприклад, "Зарплата" або "Купівля в магазині")
+•	Сума транзакції
+•	Тип транзакції: дохід або витрата
+Вихідні даних: Додаток повинен відображати список усіх транзакцій користувача, а також загальну суму доходів, загальну суму видатків та залишок бюджету. Транзакції мають бути відсортовані за датою.
+Сховище даних: Всі дані повинні зберігатися в localStorage (опційно: зберігатися в Redux Store і зберігатися в localStorage персистентно).
+Додатково: Користувачі повинні мати можливість видаляти транзакції зі списку та редагувати їх.
+Технічні вимоги:
+•	Використання React та Redux (опціонально).
+•	Використання функціональних компонентів та хуків.
+•	Код має бути написаний на JavaScript.
+•	Красивий і чистий інтерфейс користувача вітається.
+•	Використання додаткових бібліотек та інструментів для покращення UX та взаємодії з програмою, наприклад, react-router для навігації або formik для управління формами, буде великою перевагою.
 
-## Available Scripts
+# Завдання 2: Перевірка на паліндром
+Ціль: Написати функцію на JavaScript, яка приймає на вхід рядок і повертає true, якщо рядок є паліндромом, і false в іншому випадку.
+Визначення: Паліндром - це слово, фраза, число або інша послідовність символів, яка читається зліва направо так само, як і праворуч наліво, ігноруючи пробіли, розділові знаки і регістр символів. Наприклад, "А роза упала на лапу Азора" та "racecar" - паліндроми.
+Функція: Ваша функція повинна приймати на вхід рядок і повертати значення бульова, яке визначає, чи є введений рядок паліндромом.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Обмеження: Ви не повинні використовувати сторонні бібліотеки для цього завдання. Крім того, функція повинна правильно обробляти введення з різним регістром і розділовими знаками.
